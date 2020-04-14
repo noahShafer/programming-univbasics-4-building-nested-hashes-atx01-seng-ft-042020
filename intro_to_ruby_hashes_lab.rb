@@ -12,9 +12,9 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   hash = base_hash
-  hash[:pieces] = 4
-  hash[:rent_in_dollars] = {}
-  hash[:names] = {}
+  hash[:railroads][:pieces] = 4
+  hash[:railroads][:rent_in_dollars] = {}
+  hash[:railroads][:names] = {}
   hash
 end
 
